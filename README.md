@@ -1,7 +1,7 @@
 # HOMEWORK 11 💫
 The First Page layout. 
 Here is the link:
-[My project] (https://annirubi.github.io/First-Page-layout-/)
+[My project] (https://annirubi.github.io/First-Page-Layout/)
 
 The First Page Layout with the Media Queries. 
 The improvements and amendments:
