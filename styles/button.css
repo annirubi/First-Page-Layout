@@ -1,0 +1,44 @@
+.button {
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 45px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background-color: var(--color-coral);
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .button {
+    width: 310px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+    .button {
+    width: 280px;
+    height: 60px;
+    font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 568px) {
+  .button {
+    width: 280px;
+    height: 60px;
+    font-size: 22px;
+  }
+}

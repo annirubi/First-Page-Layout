@@ -1,0 +1,77 @@
+.quote {
+  width: 100%;
+  margin-top: 114px;
+}
+
+.container5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container5__image {
+  flex-basis: 50%;
+  width: 50vw;
+  height: 490px;
+  background: url("../assets/quote_image.jpg") center/cover no-repeat;
+}
+
+.container5__quote {
+  height: 490px;
+  flex-basis: 50%;
+  background-color: var(--color-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding-left: 15px;
+}
+
+.container5__quote-main {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: var(--color-white);
+  padding-left: 10px;
+}
+
+.container5__quote-sub {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+@media (max-width: 1024px) {
+  .container5__quote-main {
+    font-size: 24px;
+  }
+  .container5__quote-sub {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 568px) {
+  .container5 {
+    display: block;
+  }
+  .container5__image {
+    width: 100vw;
+  }
+}
+
+.swipe {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-dots {
+  fill: var(--color-white);
+  width: 170px;
+  height: 14px;
+  margin-top: 25px;
+}
